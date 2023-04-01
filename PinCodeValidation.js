@@ -1,6 +1,6 @@
-console.log("Welcome To PinCode Validation")
-
+console.log("Welcome To PinCode And Email Validation")
 //UC1 
+
 const pinRegex = RegExp("^[0-9]{6}$");
 
 function validatePIN(pin){
